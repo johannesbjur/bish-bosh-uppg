@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>Bish Bosh</title>
+	<meta name="description" content="The HTML5 Herald">
+	<meta name="author" content="SitePoint">
+
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+	
+	<div class="wrapper">
+
+		<div class="form-container">
+
+			<div class="form-card">
+
+				<h2 class="title">Enter numbers:</h2>
+
+				<form id="form" >
+
+					<input id="end-nr" type="range" name="end-nr" min="1" max="10" value="5">
+					<div id="end-nr-show"></div>
+
+					<br>
+
+					<label>Bish</label>
+					<br>
+					<input id="bish-nr" type="range" name="bish-nr" min="1" max="10" value="5">
+					<div id="bish-nr-show"></div>
+
+					<label>Bosh</label>
+					<br>
+					<input id="bosh-nr" type="range" name="bosh-nr" min="1" max="10" value="5">
+					<div id="bosh-nr-show"></div>
+
+
+					<br>
+
+					<button id="submit" type="submit" name="submit">OK</button>
+
+				</form>
+
+				<div id="answers"></div>
+
+			</div>
+
+		</div>
+	</div>
+
+
+	<script src="js/main.js"></script>
+
+	
+</body>
+</html>

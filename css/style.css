@@ -1,0 +1,37 @@
+body{
+	margin: 0;
+}
+
+.title{
+	padding-bottom: 20px;
+}
+
+#submit{
+	margin-top: 20px;
+}
+
+.wrapper{
+	height: 100vh;
+	background-color: grey;
+}
+
+.form-card{
+	background-color: white;
+	height: 440px;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.form-container{
+	padding-top: 25vh;
+    width: 30vw;
+    margin: auto;
+    text-align: center;
+    min-width: 500px;
+}
+
+#answers{
+	padding-top: 50px;
+}
